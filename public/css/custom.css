@@ -1,0 +1,128 @@
+
+.social {
+	position: fixed; 
+	left: 0; 
+	top: 350px; 
+	z-index: 2000; 
+}
+ 
+	.social ul {
+		list-style: none;
+		padding: 0px;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+ 
+	.social ul li .icomoon-facebook {background:#3b5998;} 
+	.social ul li .icomoon-twitter {background: #00abf0;}
+	.social ul li .icomoon-googleplus {background: #d95232;}
+	.social ul li .icomoon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}
+
+
+.breadcrumb2 {
+    float: left; 
+    font-size: 15px;
+    list-style: outside none none;
+    margin-bottom: 25px;
+    padding: 15px 0 0;
+}
+.breadcrumb2 > .active {
+    color: #c49d1e;
+}
+.breadcrumb2 > li {
+    display: inline-block;
+}
+a {
+    color: #0078cb;
+    text-decoration: none;
+}
+
+.titulo {
+    border-bottom: 1px solid #c49d1e;
+	color: #0994f5;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+    position: relative;
+}
+.titulo_minimo {
+    border-bottom: 1px solid #c49d1e;
+	color: #0994f5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+    position: relative;
+}
+html .top-header {
+    background: none repeat scroll 0 0 rgba(196, 157, 30, 0.76);
+}
+html .top-header * {
+	color: #fff !important;
+}
+
+.main-content {
+    padding-top: 5px;
+}
+.fot-logo{
+	    color: #c49d1e;
+}
+.footer .social-box li a {
+    color: #c49d1e;
+}
+
+.dropdown-menu {
+    margin: 0px;
+    color: #0078cb;
+    background-color: #d2b453;
+}
+
+
+.dropdown-menu > li > a:hover{
+    color: #fff !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0078cb;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    background: none repeat scroll 0 0 #c49d1e;
+    
+}
+
+.form-control {
+    text-transform: none;
+}
+
+.form-control {
+    font-size: 14px;
+    }
+
+ .panel-primary > .panel-heading {
+    color: #ffffff;
+    background-color: #0078cb;
+    border-color: #0078cb;
+}
